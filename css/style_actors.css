@@ -1,0 +1,76 @@
+body{
+    background: black
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: 700;
+    font-style: normal;
+    src: local("Lato"),
+        url(./fonts/Lato-Bold.woff2) format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: normal;
+    src: local("Lato"),
+        url(./fonts/Lato-Regular.woff2) format('woff2');
+    font-display: swap;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.container {
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header_nav{
+    margin-right: auto;
+}
+
+.header_nav-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.header_nav-item{
+    font-weight: 700;
+    font-size: 24px;
+    color: #a3a3a3;
+    cursor: pointer;
+    transition: all .3s;
+}
+.header_nav-item:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+input.header_nav-item{
+    padding-left: 5px;
+    font-size: 20px;
+    background-color: #a3a3a3;
+}
+
+.actors{
+    font-weight: 700;
+    font-size: 24px;
+    color: #a3a3a3;
+}
+.actors_name{
+    margin-top: 60px;
+}
+.biography_actor{
+    margin-top: 30px;
+}
+.filmography{
+    margin-top: 30px;
+}
