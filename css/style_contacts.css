@@ -61,5 +61,27 @@ input.header_nav-item{
 }
 
 .contacts{
-    
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    color: #a3a3a3;
+}
+.contact_information{
+    width: 650px;
+    margin-top: 90px;
+    line-height: 40px;
+}
+
+.feedback_form{
+    display: flex;
+    flex-direction: column  ;
+    width: 650px;
+    height: 500xp;
+    border: solid;
+    margin-top: 90px;
+    color: white;
+}
+.feedback_form-inp{
+    border: solid;
+    color: #a3a3a3;
 }
